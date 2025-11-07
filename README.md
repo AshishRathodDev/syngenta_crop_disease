@@ -10,7 +10,7 @@
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#-overview)
 - [Key Features](#-key-features)
@@ -26,7 +26,7 @@
 
 ---
 
-## 🎯 Overview
+##  Overview
 
 This project implements an **end-to-end machine learning solution** for classifying plant diseases from leaf images using transfer learning with **EfficientNetB0**. The system achieves **95%+ accuracy** while maintaining inference speed under **100ms**, making it suitable for deployment in **mobile applications** for real-time disease detection in the field.
 
@@ -43,7 +43,7 @@ This project implements an **end-to-end machine learning solution** for classify
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
 ✅ **High Accuracy**: 95%+ test accuracy with EfficientNetB0 transfer learning  
 ✅ **Fast Inference**: <100ms prediction time on standard hardware  
@@ -56,7 +56,7 @@ This project implements an **end-to-end machine learning solution** for classify
 
 ---
 
-## 📸 Demo Screenshots
+##  Demo Screenshots
 
 ### Gradio Web Application Interface
 
@@ -68,25 +68,25 @@ This project implements an **end-to-end machine learning solution** for classify
 | ![Tomato Late Blight](/Users/ashishrathore/syngenta_crop_disease/results/image/Screenshot 2025-11-07 at 9.12.59 AM.jpg) | **Tomato Late Blight**: Detected with 36% confidence. Requires expert review due to low confidence score. |
 
 **Key Features Shown:**
-- ✅ Real-time disease classification
-- ✅ Confidence scores for transparency
-- ✅ Treatment recommendations integrated
-- ✅ Low-confidence detection handling
-- ✅ User-friendly interface
+-  Real-time disease classification
+-  Confidence scores for transparency
+-  Treatment recommendations integrated
+-  Low-confidence detection handling
+-  User-friendly interface
 
 ---
 
-## 📊 Model Performance
+##  Model Performance
 
 ### Overall Metrics
 
 | Metric | Value | Target | Status |
 |--------|-------|--------|--------|
-| **Test Accuracy** | **95.3%** | >90% | ✅ Exceeded |
-| **Top-3 Accuracy** | 98.7% | >95% | ✅ Exceeded |
-| **Model Size** | 15 MB | <50 MB | ✅ Passed |
-| **Inference Time** | 80 ms | <500 ms | ✅ Passed |
-| **Training Time** | 3.5 hours | <8 hours | ✅ Passed |
+| **Test Accuracy** | **95.3%** | >90% |  Exceeded |
+| **Top-3 Accuracy** | 98.7% | >95% |  Exceeded |
+| **Model Size** | 15 MB | <50 MB |  Passed |
+| **Inference Time** | 80 ms | <500 ms |  Passed |
+| **Training Time** | 3.5 hours | <8 hours |  Passed |
 
 ### Per-Class Performance
 
@@ -129,7 +129,7 @@ This project implements an **end-to-end machine learning solution** for classify
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.11+
@@ -184,11 +184,11 @@ data/raw/plantvillage/color/
 python scripts/debug_data.py
 ```
 
-Expected output: ✅ Dataset verified, X classes found, Y images total
+Expected output:  Dataset verified, X classes found, Y images total
 
 ---
 
-## 💻 Usage
+##  Usage
 
 ### Option 1: Complete Pipeline (Recommended)
 
@@ -245,7 +245,7 @@ python scripts/run_evaluation.py --model-path models/custom_model.h5
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 syngenta_crop_disease/
@@ -308,7 +308,7 @@ syngenta_crop_disease/
 
 ---
 
-## 💼 Business Recommendation
+##  Business Recommendation
 
 ### Deployment Strategy: **Hybrid Mobile Architecture**
 
@@ -318,11 +318,11 @@ After comprehensive evaluation, I recommend deploying **EfficientNetB0** in a **
 
 | Criterion | EfficientNetB0 | ResNet50 | MobileNetV2 |
 |-----------|----------------|----------|-------------|
-| **Accuracy** | **95.3%** ✅ | 94.1% | 93.7% |
-| **Model Size** | **15 MB** ✅ | 98 MB ❌ | 14 MB ✅ |
-| **Inference Speed** | **80ms** ✅ | 180ms | 85ms ✅ |
-| **Mobile Friendly** | Excellent ✅ | Poor ❌ | Excellent ✅ |
-| **Offline Capable** | Yes ✅ | Difficult | Yes ✅ |
+| **Accuracy** | **95.3%**  | 94.1% | 93.7% |
+| **Model Size** | **15 MB**  | 98 MB  | 14 MB  |
+| **Inference Speed** | **80ms**  | 180ms | 85ms  |
+| **Mobile Friendly** | Excellent  | Poor  | Excellent  |
+| **Offline Capable** | Yes  | Difficult | Yes  |
 
 #### Recommended Architecture
 
@@ -371,13 +371,13 @@ ROI: 240x in Year 1
 
 #### Production Readiness
 
-✅ **Ready for Deployment:**
+ **Ready for Deployment:**
 - Model accuracy exceeds 90% threshold
 - Inference time suitable for real-time use
 - Model size enables on-device deployment
 - Comprehensive error handling implemented
 
-⚠️ **Recommended Before Launch:**
+ **Recommended Before Launch:**
 - Field trials with 50-100 farmers
 - Multi-language UI support
 - Treatment database integration
@@ -385,7 +385,7 @@ ROI: 240x in Year 1
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 ### Short-term (1-3 months)
 
@@ -416,7 +416,7 @@ ROI: 240x in Year 1
 
 ---
 
-## 🔧 Technical Details
+##  Technical Details
 
 ### Model Architecture
 
@@ -475,7 +475,7 @@ Dense(11, softmax) ← Output classes
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -513,24 +513,23 @@ python scripts/run_training.py
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Ashish Rathore**  
 Data Scientist | Machine Learning Engineer
 
-- 📧 Email: ashish.rathore@example.com
-- 💼 LinkedIn: [linkedin.com/in/ashishrathore](https://linkedin.com/in/ashishrathore)
-- 🐙 GitHub: [github.com/ashishrathore](https://github.com/ashishrathore)
+-  Email: ashish3110rathod@gmail.com
+-  LinkedIn: [linkedin.com/in/ashishrathore](https://www.linkedin.com/in/ashishrathod-it/)
+-  GitHub: [github.com/ashishrathore](https://github.com/AshishRathodDev)
 
 **Project Details:**
 - Developed for: Syngenta Data Science Interview
 - Date: November 2025
-- Timeline: Completed in 6-7 hours
 - Status: Production-ready
 
 ---
 
-## 📚 References & Resources
+##  References & Resources
 
 ### Dataset
 - [PlantVillage Dataset on Kaggle](https://www.kaggle.com/datasets/emmarex/plantdisease)
@@ -546,7 +545,7 @@ Data Scientist | Machine Learning Engineer
 
 ---
 
-## 📄 License
+##  License
 
 This project is created for educational and interview purposes.  
 Dataset: PlantVillage (Public Domain)  
@@ -554,7 +553,7 @@ Code: MIT License (see LICENSE file)
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **PlantVillage Project** for the comprehensive disease dataset
 - **Syngenta** for the challenging and impactful problem statement
@@ -563,15 +562,15 @@ Code: MIT License (see LICENSE file)
 
 ---
 
-## ⭐ Project Highlights
+##  Project Highlights
 
-- ✅ **95.3% Accuracy** - Exceeds production requirements
-- ✅ **Mobile-Optimized** - 15MB model, <100ms inference
-- ✅ **Production-Ready** - Complete pipeline from data to deployment
-- ✅ **Business Value** - $120M potential impact in Year 1
-- ✅ **Explainable AI** - Grad-CAM visualizations included
-- ✅ **Interactive Demo** - Gradio web interface
-- ✅ **Comprehensive Documentation** - README, notebooks, reports
+-  **95.3% Accuracy** - Exceeds production requirements
+-  **Mobile-Optimized** - 15MB model, <100ms inference
+-  **Production-Ready** - Complete pipeline from data to deployment
+-  **Business Value** - $120M potential impact in Year 1
+-  **Explainable AI** - Grad-CAM visualizations included
+-  **Interactive Demo** - Gradio web interface
+-  **Comprehensive Documentation** - README, notebooks, reports
 
 ---
 

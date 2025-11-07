@@ -22,14 +22,13 @@ build/
 
 # Data (DON'T COMMIT LARGE FILES!)
 data/raw/
-#data/processed/
+data/processed/
 *.h5
 *.pkl
 
 # Models (except small ones)
 models/*.h5
 models/*.tflite
-
 
 
 # OS
